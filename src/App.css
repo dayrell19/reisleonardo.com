@@ -7,8 +7,7 @@
   
   .aboutme,
   .projects,
-  .skills,
-  .sign-up {
+  .skills {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -17,7 +16,7 @@
   }
   
   .projects {
-    /* background-image: url('/images/img-2.jpg'); */
+    background-image: url('./assets/image-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,7 +25,7 @@
   }
   
   .skills {
-    /* background-image: url('/images/img-1.jpg'); */
+    background-image: url('./assets/image-4.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
