@@ -1,5 +1,21 @@
-.profileContainer {
-    height:500px;
-    width: 100%;
+.timelineContainer {
+    height: 1513px;
+    width:100%;
     background-color: #fff;
 }
+
+.vertical-timeline.vertical-timeline-custom-line::before {
+    background: #424242;
+  }
+  
+   .vertical-timeline-element--work .vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #242424, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .timelineContainer > h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }

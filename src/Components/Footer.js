@@ -17,7 +17,7 @@ function Footer() {
             <h2>Contact Me</h2>
             <p class="column1-items">+1 (604) 710-3336</p>
             <p class="column1-items">leonardodayrell.reis@gmail.com</p>
-            <p class="column1-items">My Resume <i class='far fa-folder' /> </p>
+            <p class="column1-items" onClick="">My Resume <i class='far fa-folder' /> </p>
             <p class="column1-items">Vancouver, Canada</p>
         
           </div>
