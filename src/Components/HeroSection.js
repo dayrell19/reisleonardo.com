@@ -13,9 +13,9 @@ function HeroSection() {
             <p className='hero-text'>What are you looking for?</p>
 
             <div>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>PROJECTS</Button>
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' onClick='/projects'>PROJECTS</Button>
 
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>SKILLS</Button>
+                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' onClick='/skills'>SKILLS</Button>
             </div>
         </div>
     )

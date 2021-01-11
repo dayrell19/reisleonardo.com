@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import Resume from '../assets/Resume.pdf'
 
 function Footer() {
   return (
@@ -17,7 +18,11 @@ function Footer() {
             <h2>Contact Me</h2>
             <p class="column1-items">+1 (604) 710-3336</p>
             <p class="column1-items">leonardodayrell.reis@gmail.com</p>
+            
+            <a href={Resume} download="LeonardoReis.pdf">
             <p class="column1-items" onClick="">My Resume <i class='far fa-folder' /> </p>
+            </a>
+
             <p class="column1-items">Vancouver, Canada</p>
         
           </div>

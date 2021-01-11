@@ -1,0 +1,107 @@
+.skills-container {
+    height: 1000px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.languages-skills {
+    margin: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.languages-skills > h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.frontend-skills {
+    margin: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.frontend-skills > h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.backend-skills {
+    margin: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.backend-skills > h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.items {
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+ #c {
+    margin-right: 5px;
+    padding-bottom: 2px;
+ }
+
+ #python {
+    margin-right: 5px;
+    padding-bottom: 2px;
+ }
+
+ #javascript {
+    margin-right: 5px;
+    padding-bottom: 2px;
+ }
+
+ #html {
+    margin-right: 5px;
+    padding-bottom: 2px;
+ }
+
+ #css {
+    margin-right: 5px;
+    padding-bottom: 2px;
+ }
+
+ #react {
+    margin-right: 5px;
+    padding-bottom: 2px;
+ }
+
+ #reactnative {
+    margin-right: 5px;
+    padding-bottom: 2px;
+ }
+
+ #node {
+    margin-right: 5px;
+    padding-bottom: 2px;
+ }
+
+ #flask {
+    margin-right: 5px;
+    padding-bottom: 2px;
+ }
+
+ #database {
+    margin-right: 5px;
+    padding-bottom: 2px;
+ }
+
+ #aws {
+    margin-right: 5px;
+    padding-bottom: 2px;
+ }

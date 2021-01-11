@@ -1,6 +1,7 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { Link as Scroll } from 'react-scroll';
 
 function Navbar() {
     const [click,setClick] = useState(false);
@@ -24,7 +25,7 @@ function Navbar() {
 
                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                    <li className='nav-item'>
-                       <Link to='/' className='nav-links' onClick={closeMobileMenu}>About me</Link>
+                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link>
                    </li>
 
                    <li className='nav-item'>

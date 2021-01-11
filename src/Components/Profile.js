@@ -11,7 +11,7 @@ import "react-vertical-timeline-component/style.min.css";
 function Profile() {
     return (
         <div class="timelineContainer">
-            <h1 id="anchor-name">ABOUT ME</h1>
+            <h1>ABOUT ME</h1>
 
             <VerticalTimeline className="vertical-timeline-custom-line">
   <VerticalTimelineElement
@@ -52,7 +52,7 @@ function Profile() {
     contentArrowStyle={{ borderRight: '7px solid  #242424' }}
     iconStyle={{ background: '#fff', color: '#242424' }}
     icon={<EducationIcon />}
-    date="January 2016 -December 2018"
+    date="January 2016 -December 2018" dateClassName="dates"
   >
     <h3 className="vertical-timeline-element-title">High School</h3>
     <h4 className="vertical-timeline-element-subtitle">Belo Horizonte, Brazil</h4>
@@ -70,7 +70,7 @@ function Profile() {
     contentArrowStyle={{ borderRight: '7px solid  #242424' }}
     iconStyle={{ background: '#fff', color: '#242424' }}
     icon={<EducationIcon />}
-    date="September 2019 - April 2024"
+    date="September 2019 - April 2024" dateClassName="dates"
   >
     <h3 className="vertical-timeline-element-title">College</h3>
     <h4 className="vertical-timeline-element-subtitle">Vancouver, Canada</h4>
@@ -88,7 +88,7 @@ function Profile() {
     contentArrowStyle={{ borderRight: '7px solid  #242424' }}
     iconStyle={{ background: '#fff', color: '#242424' }}
     icon={<WorkIcon />}
-    date="August 2020 - February 2021"
+    date="August 2020 - February 2021" dateClassName="dates"
   >
     <h3 className="vertical-timeline-element-title">Frontend Developer</h3>
     <h4 className="vertical-timeline-element-subtitle">Belo Horizonte, Brazil</h4>
