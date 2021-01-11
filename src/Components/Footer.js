@@ -9,7 +9,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-phrase'>
         <p className='footer-heading'>
-          It is never late to put effort onto something you believe!
+          It is never late too put effort into something you believe!
         </p>
       </section>
       <div class='footer-column'>
