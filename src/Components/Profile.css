@@ -24,3 +24,9 @@
 .dates {
   color: #000;
 }
+
+@media screen and (max-width: 1150px) {
+  .dates {
+    color: #fff;
+  }
+}

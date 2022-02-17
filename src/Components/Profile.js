@@ -137,11 +137,12 @@ function Profile() {
             Belo Horizonte, Brazil
           </h4>
           <p>
-            Developed, tested, and deployed front-end web application components
-            with React Native and JavaScript. Implemented dynamic React Native
-            web pages with JavaScript, HTML, CSS from concept through deployment
-            and created REST API endpoints to interface front-end with backend
-            MongoDB database.
+            Developed a product management system from design to completion.
+            Participated on the creation of the designs for the frontend using
+            Figma and built them using React and TypeScript. Built the API to
+            handle user role requests and manage multiple MySQL tables using
+            Node.js, TypeScript and PrismaORM. Contributed to settling user
+            authentication using Microsoft Azure's Oauth.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
