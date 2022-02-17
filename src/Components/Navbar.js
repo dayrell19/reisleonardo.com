@@ -1,45 +1,57 @@
-import React, {useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
-import { Link as Scroll } from 'react-scroll';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
-    const [click,setClick] = useState(false);
+  const [click, setClick] = useState(false);
 
-    const handleClick = () => setClick(!click);
+  const handleClick = () => setClick(!click);
 
-    const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => setClick(false);
 
-    return (
-       <>
-        <nav className="navbar">
+  return (
+    <>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            reisleonardo.com <i class="fab fa-think-peaks" />
+          </Link>
 
-            <div className="navbar-container">
-               <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-                  reisleonardo.com <i class="fab fa-think-peaks"/>
-               </Link>
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+          </div>
 
-               <div className='menu-icon' onClick={handleClick}>
-                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-               </div>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
 
-               <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                   <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link>
-                   </li>
+            <li className="nav-item">
+              <Link
+                to="/projects"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Projects
+              </Link>
+            </li>
 
-                   <li className='nav-item'>
-                       <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>Projects</Link>
-                   </li>
-
-                   <li className='nav-item'>
-                       <Link to='/skills' className='nav-links' onClick={closeMobileMenu}>Skills</Link>
-                   </li>
-               </ul>
-            </div>
-        </nav>
-       </>
-    );
+            <li className="nav-item">
+              <Link
+                to="/skills"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Skills
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </>
+  );
 }
 
 export default Navbar;
